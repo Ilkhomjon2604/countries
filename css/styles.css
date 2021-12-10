@@ -78,7 +78,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: var(--text-font);
+  font-family: var(--font-type);
   font-size: 14px;
   line-height: 1.5;
   background-color: #fff;
@@ -147,7 +147,7 @@ img {
   margin-right: 10px;
   width: 15px;
   height: 14px;
-  outline: var(--text-color);
+  stroke: var(--text-color);
 }
 
 /* SEARCH FORM PART  */
@@ -181,9 +181,10 @@ img {
 .search-btn {
   position: absolute;
   left: 34px;
-  top: 21px;
+  top: 18px;
   width: 18px;
   height: 18px;
+  fill: var(--text-color);
 
 
 }
@@ -198,8 +199,6 @@ img {
   padding: 18px;
   background-color: var(--bg-light-sp);
   color: var(--text-color);
-
-
 }
 
 #country-select:focus{
@@ -214,7 +213,6 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 
