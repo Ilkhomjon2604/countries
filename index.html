@@ -11,165 +11,165 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
-<body class="dark-m">
+<body class="dark">
+  <div class="index-wrapper">
 
+    <div class="navbar">
+      <h1 class="title">Where in the world?</h1>
 
-  <div class="navbar">
-    <h1 class="title">Where in the world?</h1>
-
-    <button class="dark-mode">
-      <svg class="moon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5532 13.815C9.66857 13.815 6.51929 10.9278 6.51929 7.36821C6.51929 6.0253 6.96679 4.78158 7.73143 3.75C4.69036 4.69515 2.5 7.33122 2.5 10.4381C2.5 14.3385 5.94929 17.5 10.2036 17.5C13.5929 17.5 16.4696 15.4932 17.5 12.7045C16.375 13.4048 15.0161 13.815 13.5532 13.815Z" fill="white" stroke="currentcolor" stroke-width="1.25"/>
-      </svg>
-      Dark Mode
-    </button>
-  </div>
-
-
-  <div class="wrapper">
-
-    <div class="search-form">
-
-      <label class="search-label" for="search">
-        <input type="search" name="search" id="search" placeholder="Search for a country…" autocomplete="off" aria-label="Search form">
-
-        <svg class="search-btn" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 11H11.7L11.4 10.7C12.4 9.6 13 8.1 13 6.5C13 2.9 10.1 0 6.5 0C2.9 0 0 2.9 0 6.5C0 10.1 2.9 13 6.5 13C8.1 13 9.6 12.4 10.7 11.4L11 11.7V12.5L16 17.5L17.5 16L12.5 11ZM6.5 11C4 11 2 9 2 6.5C2 4 4 2 6.5 2C9 2 11 4 11 6.5C11 9 9 11 6.5 11Z" fill="#848484" />
-
+      <button class="dark-mode">
+        <svg class="moon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5532 13.815C9.66857 13.815 6.51929 10.9278 6.51929 7.36821C6.51929 6.0253 6.96679 4.78158 7.73143 3.75C4.69036 4.69515 2.5 7.33122 2.5 10.4381C2.5 14.3385 5.94929 17.5 10.2036 17.5C13.5929 17.5 16.4696 15.4932 17.5 12.7045C16.375 13.4048 15.0161 13.815 13.5532 13.815Z" fill="white" stroke="currentcolor" stroke-width="1.25"/>
         </svg>
-      </label>
-
-
-      <label  for="country-select"></label>
-
-      <select name="countries" id="country-select">
-        <option value="" selected hidden >Filter by Region</option>
-        <option value="africa">Africa</option>
-        <option value="asia">Asia</option>
-        <option value="europe">Europe</option>
-        <option value="Oceania">Oceania</option>
-
-      </select>
-
+        Dark Mode
+      </button>
     </div>
 
-    <!-- COUNTRIES DATA  -->
 
-    <div class="countries-wrapper">
+    <div class="wrapper">
 
-      <div class="country ">
-        <img src="img/flag-germany.svg" alt="German flag" width="264" height="160">
+      <div class="search-form">
 
-        <div class="country-content">
-          <div class="content-title">Germany</div>
-          <div class="data">Population: <span class="light-text"> 81,770,900</span></div>
-          <div class="data">Region:  <span class="light-text"> Europe</span></div>
-          <div class="data">Capital:  <span class="light-text"> Berlin</span></div>
-        </div>
+        <label class="search-label" for="search">
+          <input type="search" name="search" id="search" placeholder="Search for a country…" autocomplete="off" aria-label="Search form">
+
+          <svg class="search-btn" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 11H11.7L11.4 10.7C12.4 9.6 13 8.1 13 6.5C13 2.9 10.1 0 6.5 0C2.9 0 0 2.9 0 6.5C0 10.1 2.9 13 6.5 13C8.1 13 9.6 12.4 10.7 11.4L11 11.7V12.5L16 17.5L17.5 16L12.5 11ZM6.5 11C4 11 2 9 2 6.5C2 4 4 2 6.5 2C9 2 11 4 11 6.5C11 9 9 11 6.5 11Z" fill="#848484" />
+
+          </svg>
+        </label>
 
 
-      </div>
+        <label  for="country-select"></label>
 
-      <div class="country ">
-        <img src="img/us.svg" alt="The USA flag" width="264" height="160">
+        <select name="countries" id="country-select">
+          <option value="" selected hidden >Filter by Region</option>
+          <option value="africa">Africa</option>
+          <option value="asia">Asia</option>
+          <option value="europe">Europe</option>
+          <option value="Oceania">Oceania</option>
 
-        <div class="country-content">
-          <div class="content-title">United States of America</div>
-          <div class="data">Population: <span class="light-text">323,947,000</span> </div>
-          <div class="data">Region:  <span class="light-text">Americas</span></div>
-          <div class="data">Capital:  <span class="light-text"> Washington, D.C.</span></div>
-        </div>
-
+        </select>
 
       </div>
 
-      <div class="country ">
-        <img src="img/brazil-f.svg" alt= "Brazil flag" width="264" height="160">
+      <!-- COUNTRIES DATA  -->
 
-        <div class="country-content">
-          <div class="content-title">Brazil</div>
-          <div class="data">Population: <span class="light-text">206,135,893</span> </div>
-          <div class="data">Region:  <span class="light-text"> Americas</span></div>
-          <div class="data">Capital:  <span class="light-text">Brasília</span></div>
-        </div>
+      <div class="countries-wrapper">
 
+        <a class="country " href="data.html">
+          <img src="img/flag-germany.svg" alt="German flag" width="264" height="160" srcset="img/flag-germany.svg 1x, img/flag-germany@2x.svg 2x">
 
-      </div>
-
-      <div class="country ">
-        <img src="img/iceland-f.svg" alt="German flag" width="264" height="160">
-
-        <div class="country-content">
-          <div class="content-title">Iceland</div>
-          <div class="data">Population: <span class="light-text"> 334,300</span></div>
-          <div class="data">Region:  <span class="light-text"> Europe</span></div>
-          <div class="data">Capital:  <span class="light-text">Reykjavík</span></div>
-        </div>
+          <div class="country-content">
+            <div class="content-title">Germany</div>
+            <div class="data">Population: <span class="light-text"> 81,770,900</span></div>
+            <div class="data">Region:  <span class="light-text"> Europe</span></div>
+            <div class="data">Capital:  <span class="light-text"> Berlin</span></div>
+          </div>
 
 
-      </div>
+        </a>
 
-    </div>
+        <a class="country " href="#">
+          <img src="img/us.svg" alt="The USA flag" width="264" height="160" srcset="img/us.svg 1x, img/us@2x.svg 2x">
 
-    <div class="countries-wrapper">
-
-      <div class="country ">
-        <img src="img/afgan.svg" alt="German flag" width="264" height="160">
-
-        <div class="country-content">
-          <div class="content-title">Germany</div>
-          <div class="data">Population: <span class="light-text"> 81,770,900</span></div>
-          <div class="data">Region:  <span class="light-text"> Europe</span></div>
-          <div class="data">Capital:  <span class="light-text"> Berlin</span></div>
-        </div>
+          <div class="country-content">
+            <div class="content-title">United States of America</div>
+            <div class="data">Population: <span class="light-text">323,947,000</span> </div>
+            <div class="data">Region:  <span class="light-text">Americas</span></div>
+            <div class="data">Capital:  <span class="light-text"> Washington, D.C.</span></div>
+          </div>
 
 
-      </div>
+        </a>
 
-      <div class="country ">
-        <img src="img/aland.svg" alt="The USA flag" width="264" height="160">
+        <a class="country " href="#">
+          <img src="img/brazil-f.svg" alt= "Brazil flag" width="264" height="160">
 
-        <div class="country-content">
-          <div class="content-title">Åland Islands</div>
-          <div class="data">Population: <span class="light-text">28,875</span> </div>
-          <div class="data">Region:  <span class="light-text">Americas</span></div>
-          <div class="data">Capital:  <span class="light-text"> Washington, D.C.</span></div>
-        </div>
+          <div class="country-content">
+            <div class="content-title">Brazil</div>
+            <div class="data">Population: <span class="light-text">206,135,893</span> </div>
+            <div class="data">Region:  <span class="light-text"> Americas</span></div>
+            <div class="data">Capital:  <span class="light-text">Brasília</span></div>
+          </div>
 
 
-      </div>
+        </a>
 
-      <div class="country ">
-        <img src="img/usa.svg" alt= "Albaina flag" width="264" height="160">
+        <a class="country " href="#">
+          <img src="img/iceland-f.svg" alt="Icelandic flag" width="264" height="160">
 
-        <div class="country-content">
-          <div class="content-title">Brazil</div>
-          <div class="data">Population: <span class="light-text">2,886,026</span> </div>
-          <div class="data">Region:  <span class="light-text"> Europe</span></div>
-          <div class="data">Capital:  <span class="light-text">Tirana</span></div>
-        </div>
+          <div class="country-content">
+            <div class="content-title">Iceland</div>
+            <div class="data">Population: <span class="light-text"> 334,300</span></div>
+            <div class="data">Region:  <span class="light-text"> Europe</span></div>
+            <div class="data">Capital:  <span class="light-text">Reykjavík</span></div>
+          </div>
 
+
+        </a>
 
       </div>
 
-      <div class="country ">
-        <img src="img/albania-f.svg" alt="Algeria flag" width="264" height="160">
+      <div class="countries-wrapper">
 
-        <div class="country-content">
-          <div class="content-title">Algeria</div>
-          <div class="data">Population: <span class="light-text">40,400,000</span></div>
-          <div class="data">Region:  <span class="light-text"> Africa</span></div>
-          <div class="data">Capital:  <span class="light-text">Algiers</span></div>
-        </div>
+        <a class="country " href="#">
+          <img src="img/afgan.svg" alt="German flag" width="264" height="160">
 
+          <div class="country-content">
+            <div class="content-title">Afganistan</div>
+            <div class="data">Population: <span class="light-text"> 81,770,900</span></div>
+            <div class="data">Region:  <span class="light-text"> Europe</span></div>
+            <div class="data">Capital:  <span class="light-text"> Berlin</span></div>
+          </div>
+
+
+        </a>
+
+        <a class="country " href="#">
+          <img src="img/aland.svg" alt="The USA flag" width="264" height="160">
+
+          <div class="country-content">
+            <div class="content-title">Åland Islands</div>
+            <div class="data">Population: <span class="light-text">28,875</span> </div>
+            <div class="data">Region:  <span class="light-text">Americas</span></div>
+            <div class="data">Capital:  <span class="light-text"> Washington, D.C.</span></div>
+          </div>
+
+
+        </a>
+
+        <a class="country " href="#">
+          <img src="img/usa.svg" alt= "Albaina flag" width="264" height="160">
+
+          <div class="country-content">
+            <div class="content-title">Brazil</div>
+            <div class="data">Population: <span class="light-text">2,886,026</span> </div>
+            <div class="data">Region:  <span class="light-text"> Europe</span></div>
+            <div class="data">Capital:  <span class="light-text">Tirana</span></div>
+          </div>
+
+
+        </a>
+
+        <a class="country " href="#">
+          <img src="img/albania-f.svg" alt="Algeria flag" width="264" height="160">
+
+          <div class="country-content">
+            <div class="content-title">Algeria</div>
+            <div class="data">Population: <span class="light-text">40,400,000</span></div>
+            <div class="data">Region:  <span class="light-text"> Africa</span></div>
+            <div class="data">Capital:  <span class="light-text">Algiers</span></div>
+          </div>
+
+
+        </a>
 
       </div>
 
     </div>
 
   </div>
-
-
   <script src="js/main.js"></script>
 </body>
 </html>
