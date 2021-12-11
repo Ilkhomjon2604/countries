@@ -86,7 +86,7 @@ body {
   background-color: #fff;
   color: var(--text-color);
   max-width: 1440;
-
+  transition: ease-in-out 0.3s background-color;
 }
 
 img {
@@ -317,7 +317,6 @@ a{
 
 .country-data-wrapper{
   display: flex;
-
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
